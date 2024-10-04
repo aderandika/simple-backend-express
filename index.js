@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 // Koneksi ke mongoose
 mongoose
   .connect(
-    "mongodb+srv://adepersaudaraan:MR0uA1nfYEkezoMg@nodeapinew.nonab.mongodb.net/NodeAPINew?retryWrites=true&w=majority&appName=NodeAPINew"
+    // koneksi database ke mongodb
   )
   .then(() => {
     console.log("Connected to database!");
