@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 // Koneksi ke mongoose
 mongoose
   .connect(
-    // koneksi database ke mongodb
+    // isi koneksi database ke mongodb
   )
   .then(() => {
     console.log("Connected to database!");
